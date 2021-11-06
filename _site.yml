@@ -1,0 +1,20 @@
+name: "SzePui-website "
+output_dir: "."
+navbar:
+  title: "Sze Pui's website"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Dashboard"
+      href: Project.html
+    - icon: fa-envelope fa-lg
+      href: mailto:sallietsang@gmail.com
+    - icon: fa-github fa-lg
+      href: http://github.com/sallietsang/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/sallie-tsang-9135a6199/?originalSubdomain=hk
+output:
+  html_document:
+      theme: cosmo
